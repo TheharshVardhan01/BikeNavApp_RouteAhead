@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.h2km33t.routeahead.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.h2km33t.routeahead.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.h2km33t.routeahead.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.h2km33t.routeahead.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]
