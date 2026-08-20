@@ -1,4 +1,10 @@
+// Version set chosen to match Android Studio 2026.1.3, whose bundled JDK is 25.
+// The previous AGP 8.2.2 / Gradle 8.4 / Kotlin 1.9 combination cannot run on Java 25 at all.
+//
+// AGP 9 compiles Kotlin itself, so there is deliberately no 'org.jetbrains.kotlin.android'
+// plugin here - applying it is now a hard error. Only the Compose compiler plugin is
+// declared separately.
 plugins {
-    id 'com.android.application' version '8.2.2' apply false
-    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
+    id 'com.android.application' version '9.3.1' apply false
+    id 'org.jetbrains.kotlin.plugin.compose' version '2.3.21' apply false
 }
